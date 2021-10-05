@@ -1,19 +1,26 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: #e59500;
 }
 h1 {
-    color: purple;
+    color: #02040F;
     text-align: center;
 }
 .topnav a{
-    float: left;
+    display: inline-block;
     color: #002642;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 354px;
     text-decoration: none;
     font-size: 17px;
+    border-bottom: 3px solid transparent;
 }
 .topnav a:hover{
     background-color: #e5dada;
-    color: black;
+    color: #02040F;
+    border-bottom: 3px solid #002642;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
